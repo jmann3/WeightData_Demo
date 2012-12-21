@@ -24,14 +24,14 @@
 		B98B01F616835D5400E498A3 /* CPDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01DA16835C7600E498A3 /* CPDConstants.m */; };
 		B98B01F716835D5400E498A3 /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01DD16835CA400E498A3 /* WeightEntry.m */; };
 		B98B01F816835D5400E498A3 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01DF16835CA400E498A3 /* DataStore.m */; };
-		B98B01F916835D5400E498A3 /* WeightHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01E116835CC800E498A3 /* WeightHistoryViewController.m */; };
-		B98B01FA16835D5400E498A3 /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01E316835CC800E498A3 /* EnterWeightViewController.m */; };
-		B98B01FB16835D5400E498A3 /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01E516835CC800E498A3 /* UnitSelectorViewController.m */; };
-		B98B01FC16835D5400E498A3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01E716835CC800E498A3 /* DetailViewController.m */; };
-		B98B01FD16835D5400E498A3 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01E916835CC800E498A3 /* HistoryCell.m */; };
-		B98B01FE16835D5400E498A3 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01EB16835CC800E498A3 /* ChartViewController.m */; };
 		B98B02371683D96A00E498A3 /* CorePlotHeaders in Resources */ = {isa = PBXBuildFile; fileRef = B98B02361683D96A00E498A3 /* CorePlotHeaders */; };
 		B98B02A21683DD9700E498A3 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B02381683D97F00E498A3 /* libCorePlot-CocoaTouch.a */; };
+		B98B02C71683E36700E498A3 /* WeightHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02BC1683E33A00E498A3 /* WeightHistoryViewController.m */; };
+		B98B02C81683E36700E498A3 /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02BE1683E33A00E498A3 /* EnterWeightViewController.m */; };
+		B98B02C91683E36700E498A3 /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02C01683E33A00E498A3 /* UnitSelectorViewController.m */; };
+		B98B02CA1683E36700E498A3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02C21683E33A00E498A3 /* DetailViewController.m */; };
+		B98B02CB1683E36700E498A3 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02C41683E33A00E498A3 /* HistoryCell.m */; };
+		B98B02CC1683E36700E498A3 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02C61683E33A00E498A3 /* ChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,18 +54,6 @@
 		B98B01DD16835CA400E498A3 /* WeightEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightEntry.m; sourceTree = "<group>"; };
 		B98B01DE16835CA400E498A3 /* DataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
 		B98B01DF16835CA400E498A3 /* DataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
-		B98B01E016835CC800E498A3 /* WeightHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightHistoryViewController.h; sourceTree = "<group>"; };
-		B98B01E116835CC800E498A3 /* WeightHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightHistoryViewController.m; sourceTree = "<group>"; };
-		B98B01E216835CC800E498A3 /* EnterWeightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnterWeightViewController.h; sourceTree = "<group>"; };
-		B98B01E316835CC800E498A3 /* EnterWeightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnterWeightViewController.m; sourceTree = "<group>"; };
-		B98B01E416835CC800E498A3 /* UnitSelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitSelectorViewController.h; sourceTree = "<group>"; };
-		B98B01E516835CC800E498A3 /* UnitSelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitSelectorViewController.m; sourceTree = "<group>"; };
-		B98B01E616835CC800E498A3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B98B01E716835CC800E498A3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		B98B01E816835CC800E498A3 /* HistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
-		B98B01E916835CC800E498A3 /* HistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
-		B98B01EA16835CC800E498A3 /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
-		B98B01EB16835CC800E498A3 /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
 		B98B01EC16835CDC00E498A3 /* 122-stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "122-stats.png"; sourceTree = "<group>"; };
 		B98B01ED16835CDC00E498A3 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
 		B98B01EE16835CDC00E498A3 /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
@@ -73,6 +61,18 @@
 		B98B01F416835D3300E498A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B98B02361683D96A00E498A3 /* CorePlotHeaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CorePlotHeaders; sourceTree = "<group>"; };
 		B98B02381683D97F00E498A3 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		B98B02BB1683E33A00E498A3 /* WeightHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeightHistoryViewController.h; sourceTree = "<group>"; };
+		B98B02BC1683E33A00E498A3 /* WeightHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightHistoryViewController.m; sourceTree = "<group>"; };
+		B98B02BD1683E33A00E498A3 /* EnterWeightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnterWeightViewController.h; sourceTree = "<group>"; };
+		B98B02BE1683E33A00E498A3 /* EnterWeightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnterWeightViewController.m; sourceTree = "<group>"; };
+		B98B02BF1683E33A00E498A3 /* UnitSelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitSelectorViewController.h; sourceTree = "<group>"; };
+		B98B02C01683E33A00E498A3 /* UnitSelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitSelectorViewController.m; sourceTree = "<group>"; };
+		B98B02C11683E33A00E498A3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B98B02C21683E33A00E498A3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B98B02C31683E33A00E498A3 /* HistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		B98B02C41683E33A00E498A3 /* HistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		B98B02C51683E33A00E498A3 /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		B98B02C61683E33A00E498A3 /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,18 +128,18 @@
 				B98B01F216835D0200E498A3 /* MainStoryboard_iPhone.storyboard */,
 				B98B01C416835C4700E498A3 /* AppDelegate.h */,
 				B98B01C516835C4700E498A3 /* AppDelegate.m */,
-				B98B01E016835CC800E498A3 /* WeightHistoryViewController.h */,
-				B98B01E116835CC800E498A3 /* WeightHistoryViewController.m */,
-				B98B01E216835CC800E498A3 /* EnterWeightViewController.h */,
-				B98B01E316835CC800E498A3 /* EnterWeightViewController.m */,
-				B98B01E416835CC800E498A3 /* UnitSelectorViewController.h */,
-				B98B01E516835CC800E498A3 /* UnitSelectorViewController.m */,
-				B98B01E616835CC800E498A3 /* DetailViewController.h */,
-				B98B01E716835CC800E498A3 /* DetailViewController.m */,
-				B98B01E816835CC800E498A3 /* HistoryCell.h */,
-				B98B01E916835CC800E498A3 /* HistoryCell.m */,
-				B98B01EA16835CC800E498A3 /* ChartViewController.h */,
-				B98B01EB16835CC800E498A3 /* ChartViewController.m */,
+				B98B02BB1683E33A00E498A3 /* WeightHistoryViewController.h */,
+				B98B02BC1683E33A00E498A3 /* WeightHistoryViewController.m */,
+				B98B02BD1683E33A00E498A3 /* EnterWeightViewController.h */,
+				B98B02BE1683E33A00E498A3 /* EnterWeightViewController.m */,
+				B98B02BF1683E33A00E498A3 /* UnitSelectorViewController.h */,
+				B98B02C01683E33A00E498A3 /* UnitSelectorViewController.m */,
+				B98B02C11683E33A00E498A3 /* DetailViewController.h */,
+				B98B02C21683E33A00E498A3 /* DetailViewController.m */,
+				B98B02C31683E33A00E498A3 /* HistoryCell.h */,
+				B98B02C41683E33A00E498A3 /* HistoryCell.m */,
+				B98B02C51683E33A00E498A3 /* ChartViewController.h */,
+				B98B02C61683E33A00E498A3 /* ChartViewController.m */,
 				B98B01BC16835C4700E498A3 /* Supporting Files */,
 			);
 			path = WeightTrajectory;
@@ -261,15 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98B02C71683E36700E498A3 /* WeightHistoryViewController.m in Sources */,
+				B98B02C81683E36700E498A3 /* EnterWeightViewController.m in Sources */,
+				B98B02C91683E36700E498A3 /* UnitSelectorViewController.m in Sources */,
+				B98B02CA1683E36700E498A3 /* DetailViewController.m in Sources */,
+				B98B02CB1683E36700E498A3 /* HistoryCell.m in Sources */,
+				B98B02CC1683E36700E498A3 /* ChartViewController.m in Sources */,
 				B98B01F616835D5400E498A3 /* CPDConstants.m in Sources */,
 				B98B01F716835D5400E498A3 /* WeightEntry.m in Sources */,
 				B98B01F816835D5400E498A3 /* DataStore.m in Sources */,
-				B98B01F916835D5400E498A3 /* WeightHistoryViewController.m in Sources */,
-				B98B01FA16835D5400E498A3 /* EnterWeightViewController.m in Sources */,
-				B98B01FB16835D5400E498A3 /* UnitSelectorViewController.m in Sources */,
-				B98B01FC16835D5400E498A3 /* DetailViewController.m in Sources */,
-				B98B01FD16835D5400E498A3 /* HistoryCell.m in Sources */,
-				B98B01FE16835D5400E498A3 /* ChartViewController.m in Sources */,
 				B98B01C216835C4700E498A3 /* main.m in Sources */,
 				B98B01C616835C4700E498A3 /* AppDelegate.m in Sources */,
 			);
@@ -350,6 +350,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeightTrajectory/WeightTrajectory-Prefix.pch";
 				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/framework/**\"";
 				INFOPLIST_FILE = "WeightTrajectory/WeightTrajectory-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,6 +368,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeightTrajectory/WeightTrajectory-Prefix.pch";
 				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/framework/**\"";
 				INFOPLIST_FILE = "WeightTrajectory/WeightTrajectory-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
