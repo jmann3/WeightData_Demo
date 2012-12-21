@@ -19,7 +19,6 @@
 		B98B01EF16835CDC00E498A3 /* 122-stats.png in Resources */ = {isa = PBXBuildFile; fileRef = B98B01EC16835CDC00E498A3 /* 122-stats.png */; };
 		B98B01F016835CDC00E498A3 /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = B98B01ED16835CDC00E498A3 /* 11-clock.png */; };
 		B98B01F116835CDC00E498A3 /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = B98B01EE16835CDC00E498A3 /* 10-medical.png */; };
-		B98B01F316835D0200E498A3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98B01F216835D0200E498A3 /* MainStoryboard_iPhone.storyboard */; };
 		B98B01F516835D3300E498A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B01F416835D3300E498A3 /* QuartzCore.framework */; };
 		B98B01F616835D5400E498A3 /* CPDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01DA16835C7600E498A3 /* CPDConstants.m */; };
 		B98B01F716835D5400E498A3 /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B01DD16835CA400E498A3 /* WeightEntry.m */; };
@@ -32,6 +31,7 @@
 		B98B02CA1683E36700E498A3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02C21683E33A00E498A3 /* DetailViewController.m */; };
 		B98B02CB1683E36700E498A3 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02C41683E33A00E498A3 /* HistoryCell.m */; };
 		B98B02CC1683E36700E498A3 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B02C61683E33A00E498A3 /* ChartViewController.m */; };
+		B98B02D71683E4AE00E498A3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98B02D61683E4AE00E498A3 /* MainStoryboard_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +57,6 @@
 		B98B01EC16835CDC00E498A3 /* 122-stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "122-stats.png"; sourceTree = "<group>"; };
 		B98B01ED16835CDC00E498A3 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
 		B98B01EE16835CDC00E498A3 /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
-		B98B01F216835D0200E498A3 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B98B01F416835D3300E498A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B98B02361683D96A00E498A3 /* CorePlotHeaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CorePlotHeaders; sourceTree = "<group>"; };
 		B98B02381683D97F00E498A3 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		B98B02C41683E33A00E498A3 /* HistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
 		B98B02C51683E33A00E498A3 /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
 		B98B02C61683E33A00E498A3 /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		B98B02D61683E4AE00E498A3 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +125,9 @@
 		B98B01BB16835C4700E498A3 /* WeightTrajectory */ = {
 			isa = PBXGroup;
 			children = (
-				B98B01F216835D0200E498A3 /* MainStoryboard_iPhone.storyboard */,
 				B98B01C416835C4700E498A3 /* AppDelegate.h */,
 				B98B01C516835C4700E498A3 /* AppDelegate.m */,
+				B98B02D61683E4AE00E498A3 /* MainStoryboard_iPhone.storyboard */,
 				B98B02BB1683E33A00E498A3 /* WeightHistoryViewController.h */,
 				B98B02BC1683E33A00E498A3 /* WeightHistoryViewController.m */,
 				B98B02BD1683E33A00E498A3 /* EnterWeightViewController.h */,
@@ -249,8 +249,8 @@
 				B98B01EF16835CDC00E498A3 /* 122-stats.png in Resources */,
 				B98B01F016835CDC00E498A3 /* 11-clock.png in Resources */,
 				B98B01F116835CDC00E498A3 /* 10-medical.png in Resources */,
-				B98B01F316835D0200E498A3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				B98B02371683D96A00E498A3 /* CorePlotHeaders in Resources */,
+				B98B02D71683E4AE00E498A3 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
