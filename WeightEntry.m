@@ -7,7 +7,7 @@
 //
 
 #import "WeightEntry.h"
-#import "WeightHistoryViewController.h"
+//#import "WeightHistoryViewController.h"
 
 @implementation WeightEntry
 
